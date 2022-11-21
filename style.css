@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  }
+/* Cabecalho */
+
+#cabecalho {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #303030;
+  justify-content: space-between;
+  
+}
+
+#cabecalho div{
+  margin-left: 50px;
+}
+
+#cabecalho div a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#cabecalho div a:hover{
+    color: rgb(2, 29, 3);
+}
+
+#cabecalho nav ul{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-right: 50px;
+
+}
+
+#cabecalho nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#cabecalho nav ul li a:hover {
+  color: rgb(2, 29, 3);
+}
+
+/* Sobre mim */
+
+#sobre-mim{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+}
+
+.guilherme-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+
+}
+
+.nome{
+
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+
+}
+
+.formacao{
+
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Libre Baskerville', serif;
+  color: green;
+}
+
+.convite{
+
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#social-media{
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link{
+  font-size: 40px;
+  text-decoration: none;
+
+}
+
+.linkedin{
+  color: #0077b5;
+}
+
+.linkedin:hover{
+  color: #004a72;
+}
+
+.facebook{
+  color: #3b5998;
+}
+
+.facebook:hover{
+  color: #1d2f5b;
+}
+
+.instagram{
+  color: #e4405f;
+}
+
+.instagram:hover{
+  color: #992a3e;
+}
+
+.github{
+  color: #333;
+}
+
+.github:hover{
+  color: black;
+}
